@@ -1,0 +1,87 @@
+﻿
+Summer of Code - How To
+
+
+
+
+1. How to Git
+
+
+
+- create an account and your first repo
+
+
+
+Creating a Repo
+
+- Click create repo and check read.me status, this takes you directly to the clone page.
+
+
+
+2. Some Terms
+
+
+
+- Clone - use ‘git clone’ to clone the repo you created or a repo by a different owner. To Clone, copy url in the repo of another user and enter. 
+
+
+
+- Fork - Before working on another’s project, use the Fork icon to fork the repo. Note: You can only clone another’s repo by forking first.
+
+
+
+- Add - Use ‘git add’ to add a file
+
+- Commit - ‘git commit -m’ to Commit the file to git.
+
+- Push - ‘git push’ to push the commit to GitHub or bitbucket.
+
+- Pull - After pushing, enter your GitHub account and create pull request.
+
+- Remote - ‘git remote -v’, ‘git remote add upstream’ + url then pull 
+
+
+
+Git Pull
+
+git pull upstream master
+
+
+
+3. To remove file
+
+- vi WRONG
+
+- rm WRONG
+
+- git rm
+
+- git commit -m “Delete Spurious file”
+
+- git push
+
+
+
+
+
+
+
+4. Recover file removed
+
+-git checkout ‘file’
+
+
+
+vi is a mode editor
+
+Enter message in vi mode
+
+Hit escape to do this
+
+Then hit shift Z to go back into command mode
+
+
+
+
+
+
